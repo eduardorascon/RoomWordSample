@@ -1,6 +1,18 @@
 package com.eduardorascon.roomwordsample.roomwordsample;
 
+import android.app.Application;
 import android.arch.lifecycle.AndroidViewModel;
+import android.arch.lifecycle.LiveData;
 
-public class WordViewModel {
+import java.util.List;
+
+public class WordViewModel extends AndroidViewModel {
+    private WordRepository mRepository;
+    private LiveData<List<Word>> mAllWords;
+
+    public WordViewModel(Application application) {
+        super(application);
+        mRepository = new WordRepository(application);
+        mAllWords = mRepository.getAllWords();
+    }
 }
