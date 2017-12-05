@@ -6,10 +6,6 @@ import android.os.AsyncTask;
 
 import java.util.List;
 
-/**
- * Created by User on 04/12/2017.
- */
-
 public class WordRepository {
 
     private WordDao mWordDao;
