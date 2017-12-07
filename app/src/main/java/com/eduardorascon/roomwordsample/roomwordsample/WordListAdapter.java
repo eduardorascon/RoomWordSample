@@ -50,4 +50,9 @@ public class WordListAdapter extends RecyclerView.Adapter<WordListAdapter.WordVi
             wordItemView = itemView.findViewById(R.id.textView);
         }
     }
+
+    void setWords(List<Word> words) {
+        mWords = words;
+        notifyDataSetChanged();
+    }
 }
