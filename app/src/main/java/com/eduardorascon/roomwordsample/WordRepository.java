@@ -1,4 +1,4 @@
-package com.eduardorascon.roomwordsample.roomwordsample;
+package com.eduardorascon.roomwordsample;
 
 import android.app.Application;
 import android.arch.lifecycle.LiveData;

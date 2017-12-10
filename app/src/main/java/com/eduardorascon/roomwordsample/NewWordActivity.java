@@ -1,4 +1,4 @@
-package com.eduardorascon.roomwordsample.roomwordsample;
+package com.eduardorascon.roomwordsample;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -7,6 +7,8 @@ import android.text.TextUtils;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+
+import com.eduardorascon.roomwordsample.roomwordsample.R;
 
 public class NewWordActivity extends AppCompatActivity {
 
